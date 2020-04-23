@@ -1,4 +1,4 @@
 [[redirects]]
   from = "/*"
-  to = "/localhost:7000"
+  to = "/app.js"
   status = 200
