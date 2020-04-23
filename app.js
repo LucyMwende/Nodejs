@@ -6,6 +6,7 @@ const ejs = require('ejs');
 const bodyParser = require('body-parser');
 const mysql = require('mysql');
 const app = express();
+const serverless = require('serverless-http');
 
 const connection=mysql.createConnection({
     host:'localhost',
@@ -142,3 +143,5 @@ app.listen(process.env.PORT || 7000, function () {
     console.log("SERVER STARTED PORT: 7000"); 
 }); 
 /*var PORT = process.env.PORT || 7000;*/
+//module.exports.handler = serverless(app);
+//app.use('/.netlify/app');
