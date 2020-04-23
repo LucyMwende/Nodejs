@@ -1,0 +1,27 @@
+{
+  "name": "nodejslucy",
+  "version": "1.0.0",
+  "description": "node js task",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LucyMwende/Nodejs.git"
+  },
+  "author": "Lucy Mwende",
+  "license": "ISC",
+  "dependencies": {
+    "add-gitignore": "^1.1.1",
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "request": "^2.88.2",
+    "upper-case": "^2.0.1"
+  },
+  "optionalDependencies": {
+    "fsevents": "^2.1.3"
+  }
+}
